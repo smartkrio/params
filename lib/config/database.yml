@@ -1,0 +1,20 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: utf8
+  reconnect: true
+  database: params
+  username: Smartkrio
+  password:
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+  database: test_params
+
+production:
+  <<: *defaults

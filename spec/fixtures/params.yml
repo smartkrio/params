@@ -1,0 +1,8 @@
+one:
+  id: 1
+  company_id: 1
+  data:
+    name: 'Phone'
+    label: Phone
+    value_type: 'String'
+    value: '+11111'
